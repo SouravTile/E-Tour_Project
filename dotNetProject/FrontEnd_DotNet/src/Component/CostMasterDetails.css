@@ -1,0 +1,56 @@
+* CostMasterDetails.css */
+
+.cost-master-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.centered-heading {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.cost-card {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cost-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.button-col {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.cost-card {
+    width: 80%; /* Adjust this value as needed */
+    margin: auto; /* Center the card horizontally */
+    padding: 20px; /* Add padding around the card content */
+    box-sizing: border-box; /* Include padding in the total width */
+    /* Add any other styling you need */
+}
